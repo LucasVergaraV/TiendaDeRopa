@@ -1,0 +1,11 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#body {
+    width: 955px;
+    height: 1200px;
+    background-color: #a9a9a9;
+    margin: 0.5em 11em 0.5em 11em;
+}
