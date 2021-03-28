@@ -5,7 +5,32 @@
 
 #body {
     width: 955px;
-    height: 1200px;
+    height: 1400px;
     background-color: #a9a9a9;
     margin: 0.5em 11em 0.5em 11em;
+}
+
+#header {
+    height: 74%;
+    background-color: #ffe4c4;
+}
+
+#separador {
+    height: 11.5%;
+    background-color: #000;
+}
+
+#nav {
+    height: 11.5%;
+    background-color: #7fffd4;
+}
+
+#contenedor {
+    height: 70%;
+    background-color: #ee82ee;
+}
+
+#footer {
+    height: 7%;
+    background-color: #bdb76b;
 }
