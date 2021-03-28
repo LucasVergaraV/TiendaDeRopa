@@ -43,6 +43,26 @@
     background-color: #006400;
 }
 
+.articulitos {
+    height: 20%;
+    margin-bottom: 2em;
+    background-color: #d2691e;
+}
+
+.articulitosl {
+    height: 100%;
+    width: 47.5%;
+    float: left;
+    background-color: #006400;
+}
+
+.articulitosr {
+    height: 100%;
+    width: 47.5%;
+    float: right;
+    background-color: #006400;
+}
+
 #footer {
     height: 7%;
     background-color: #bdb76b;
