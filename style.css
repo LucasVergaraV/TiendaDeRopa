@@ -30,6 +30,19 @@
     background-color: #ee82ee;
 }
 
+#contenido {
+    height: 100%;
+    width: 80%;
+    background-color: #d2691e;
+    margin: 0 5em 0 5em;
+}
+
+.articulos {
+    height: 20%;
+    margin-bottom: 2em;
+    background-color: #006400;
+}
+
 #footer {
     height: 7%;
     background-color: #bdb76b;
