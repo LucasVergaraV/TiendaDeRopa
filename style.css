@@ -5,27 +5,27 @@
     margin: 0.5em 0 0.5em 0;
 }
 
-#header {
+.header {
     height: 74%;
     background-color: #ffe4c4;
 }
 
-#separador {
+.separador {
     height: 11.5%;
     background-color: #000;
 }
 
-#nav {
+.nav {
     height: 11.5%;
     background-color: #7fffd4;
 }
 
-#contenedor {
+.contenedor {
     height: 70%;
     background-color: #ee82ee;
 }
 
-#contenido {
+.contenido {
     height: 100%;
     width: 80%;
     background-color: #d2691e;
@@ -58,7 +58,7 @@
     background-color: #006400;
 }
 
-#footer {
+.footer {
     height: 7%;
     background-color: #bdb76b;
 }
