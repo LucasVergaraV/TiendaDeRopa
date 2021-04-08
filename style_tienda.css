@@ -1,31 +1,27 @@
 .compras {
     height: 100vh;
+    padding: 0 4em 0 4em;
 }
 
 .cubo {
     background-color: #ffffff;
     border: #000000;
     border-style: solid;
+    margin-bottom: 1em;
 }
 
 .carro {
     height: 100vh;
-    margin-left: 3em;
 }
 
 .datos {
     height: 45vh;
-    margin-bottom: 1em;
-    margin-right: 2em;
 }
 
 .direccion {
-    height: 25vh;
-    margin-bottom: 1em;
-    margin-right: 2em;
+    height: 26vh;
 }
 
 .totalpago {
     height: 25vh;
-    margin-right: 2em;
 }
