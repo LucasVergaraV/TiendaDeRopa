@@ -1,0 +1,26 @@
+.compras {
+    height: 100vh;
+}
+
+.cubo {
+    background-color: #ffffff;
+    border: #000000;
+    border-style: solid;
+    margin: 2em;
+}
+
+.carro {
+    height: 100vh;
+}
+
+.datos {
+    height: 60vh;
+}
+
+.direccion {
+    height: 30vh;
+}
+
+.totalpago {
+    height: 10vh;
+}
