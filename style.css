@@ -1,8 +1,7 @@
 .cuerpo {
     width: 955px;
     height: 1400px;
-    background-color: #a9a9a9;
-    margin: 0.5em 0 0.5em 0;
+    margin-top: 0.5em;
 }
 
 .header {
@@ -42,6 +41,7 @@
 }
 
 .accesorio {
+    height: 6%;
     margin: 1em 4em 1em 4em;
     background-color: #ffffff;
     border: #000000;
@@ -51,6 +51,7 @@
 }
 
 .bolsos {
+    height: 6%;
     margin: 1em 4em 1em 4em;
     background-color: #ffffff;
     border: #000000;
