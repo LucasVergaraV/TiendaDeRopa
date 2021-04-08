@@ -1,7 +1,9 @@
 .cuerpo {
-    width: 955px;
-    height: 1400px;
     margin-top: 0.5em;
+}
+
+.principal {
+    height: 100vh;
 }
 
 .header {
@@ -11,13 +13,26 @@
 }
 
 .separador {
-    height: 11.5%;
+    height: 10vh;
     background-color: #000;
 }
 
 .nav {
-    height: 11.5%;
+    height: 10vh;
     background-color: #ffffff;
+}
+
+.carousel {
+    height: 78vh;
+    width: 100%;
+}
+
+.medidas {
+    height: 75vh;
+}
+
+.carousel-item {
+    height: 75vh;
 }
 
 .hombre {
