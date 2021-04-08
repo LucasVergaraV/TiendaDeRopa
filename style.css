@@ -35,8 +35,12 @@
     height: 75vh;
 }
 
+.secundario {
+    height: 100vh;
+}
+
 .hombre {
-    height: 6%;
+    height: 20vh;
     margin: 1em 4em 1em 4em;
     background-color: #ffffff;
     border: #000000;
@@ -46,7 +50,7 @@
 }
 
 .mujer {
-    height: 6%;
+    height: 20vh;
     margin: 1em 4em 1em 4em;
     background-color: #ffffff;
     border: #000000;
@@ -56,7 +60,7 @@
 }
 
 .accesorio {
-    height: 6%;
+    height: 20vh;
     margin: 1em 4em 1em 4em;
     background-color: #ffffff;
     border: #000000;
@@ -66,7 +70,7 @@
 }
 
 .bolsos {
-    height: 6%;
+    height: 20vh;
     margin: 1em 4em 1em 4em;
     background-color: #ffffff;
     border: #000000;
@@ -76,6 +80,6 @@
 }
 
 .footer {
-    height: 7%;
+    height: 20vh;
     background-color: #000000;
 }
