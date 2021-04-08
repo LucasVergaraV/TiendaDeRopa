@@ -6,21 +6,26 @@
     background-color: #ffffff;
     border: #000000;
     border-style: solid;
-    margin: 2em;
 }
 
 .carro {
     height: 100vh;
+    margin-left: 3em;
 }
 
 .datos {
-    height: 60vh;
+    height: 45vh;
+    margin-bottom: 1em;
+    margin-right: 2em;
 }
 
 .direccion {
-    height: 30vh;
+    height: 25vh;
+    margin-bottom: 1em;
+    margin-right: 2em;
 }
 
 .totalpago {
-    height: 10vh;
+    height: 25vh;
+    margin-right: 2em;
 }
