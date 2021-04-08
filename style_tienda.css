@@ -1,13 +1,25 @@
-.compras {
-    height: 100vh;
-    padding: 0 4em 0 4em;
-}
-
 .cubo {
     background-color: #ffffff;
     border: #000000;
     border-style: solid;
     margin-bottom: 1em;
+}
+
+.header {
+    height: 74%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.separador {
+    height: 10vh;
+    background-color: #000;
+    margin-top: 3em;
+}
+
+.compras {
+    height: 100vh;
+    padding: 3em 4em 0 4em;
 }
 
 .carro {
