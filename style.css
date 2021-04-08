@@ -7,7 +7,8 @@
 
 .header {
     height: 74%;
-    background-color: #ffe4c4;
+    background-color: #ffffff;
+    text-align: center;
 }
 
 .separador {
@@ -17,48 +18,48 @@
 
 .nav {
     height: 11.5%;
-    background-color: #7fffd4;
+    background-color: #ffffff;
 }
 
-.contenedor {
-    height: 70%;
-    background-color: #ee82ee;
+.hombre {
+    height: 6%;
+    margin: 1em 4em 1em 4em;
+    background-color: #ffffff;
+    border: #000000;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
 }
 
-.contenido {
-    height: 100%;
-    width: 80%;
-    background-color: #d2691e;
-    margin: 0 5em 0 5em;
+.mujer {
+    height: 6%;
+    margin: 1em 4em 1em 4em;
+    background-color: #ffffff;
+    border: #000000;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
 }
 
-.articulos {
-    height: 20%;
-    margin-bottom: 2em;
-    background-color: #006400;
+.accesorio {
+    margin: 1em 4em 1em 4em;
+    background-color: #ffffff;
+    border: #000000;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
 }
 
-.articulitos {
-    height: 20%;
-    margin-bottom: 2em;
-    background-color: #d2691e;
-}
-
-.articulitosl {
-    height: 100%;
-    width: 47.5%;
-    float: left;
-    background-color: #006400;
-}
-
-.articulitosr {
-    height: 100%;
-    width: 47.5%;
-    float: right;
-    background-color: #006400;
+.bolsos {
+    margin: 1em 4em 1em 4em;
+    background-color: #ffffff;
+    border: #000000;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
 }
 
 .footer {
     height: 7%;
-    background-color: #bdb76b;
+    background-color: #000000;
 }
