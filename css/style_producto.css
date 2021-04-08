@@ -1,0 +1,23 @@
+
+
+.body {
+  width: 955px;
+  height: 1400px;
+  background-color: #a9a9a9;
+  margin: 0.5em 11em 0.5em 11em;
+}
+
+.nav {
+  height: 11.5%;
+  background-color: #ffffff;
+}
+
+.header {
+  height: 74%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+p.centrado {
+    text-align: center;
+  }
