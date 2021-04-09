@@ -32,6 +32,10 @@
     height: 99.6vh;
 }
 
+.labels {
+    margin-left: 1em;
+}
+
 .datos {
     height: 49vh;
 }
