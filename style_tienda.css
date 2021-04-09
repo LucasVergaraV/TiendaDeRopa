@@ -2,6 +2,8 @@
     background-color: #ffffff;
     border: #000000;
     border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
     margin-bottom: 1em;
 }
 
@@ -22,12 +24,12 @@
 }
 
 .compras {
-    height: 100vh;
+    height: 130vh;
     padding: 3em 4em 0 4em;
 }
 
 .carro {
-    height: 100vh;
+    height: 99.6vh;
 }
 
 .datos {
