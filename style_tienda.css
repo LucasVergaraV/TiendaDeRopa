@@ -17,6 +17,10 @@
     margin-top: 3em;
 }
 
+.labels {
+    height: 12vh;
+}
+
 .compras {
     height: 100vh;
     padding: 3em 4em 0 4em;
@@ -27,7 +31,7 @@
 }
 
 .datos {
-    height: 45vh;
+    height: 49vh;
 }
 
 .direccion {
@@ -35,5 +39,19 @@
 }
 
 .totalpago {
-    height: 25vh;
+    height: 20vh;
+}
+
+.footer {
+    height: 40vh;
+}
+
+.botones {
+    height: 20vh;
+    text-align: right;
+}
+
+.pie {
+    height: 20vh;
+    background-color: #000000;
 }
