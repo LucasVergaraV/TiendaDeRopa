@@ -1,14 +1,32 @@
+.cuerpo {
+  margin-top: 0.5em;
+}
+
+.principal {
+  height: 100vh;
+}
 
 .header {
-  height: 10vh;
+  height: 74%;
   background-color: #ffffff;
   text-align: center;
 }
+
 .separador {
   height: 10vh;
   background-color: #000;
+  margin-top: 3em;
 }
 
+.nav {
+  height: 10vh;
+  background-color: #ffffff;
+}
+
+.footer {
+  height: 20vh;
+  background-color: #000000;
+}
 
 p.centrado {
     text-align: center;
