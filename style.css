@@ -3,7 +3,7 @@
 }
 
 .principal {
-    height: 100vh;
+    height: 35vh;
 }
 
 .header {
@@ -40,44 +40,40 @@
     height: 100vh;
 }
 
-.hombre {
-    height: 20vh;
-    margin: 1em 4em 1em 4em;
+.cubo {
+    margin: 2em 4em 2em 4em;
     background-color: #ffffff;
     border: #000000;
     border-width: 2px;
     border-style: solid;
     text-align: center;
+}
+
+.min-cubo {
+    background-color: #ffffff;
+    border: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.mini {
+    margin: 2em 4.8em 2em 4.8em;
+}
+
+.hombre {
+    height: 25vh;
 }
 
 .mujer {
-    height: 20vh;
-    margin: 1em 4em 1em 4em;
-    background-color: #ffffff;
-    border: #000000;
-    border-width: 2px;
-    border-style: solid;
-    text-align: center;
+    height: 25vh;
 }
 
 .accesorio {
-    height: 20vh;
-    margin: 1em 4em 1em 4em;
-    background-color: #ffffff;
-    border: #000000;
-    border-width: 2px;
-    border-style: solid;
-    text-align: center;
+    height: 25vh;
 }
 
 .bolsos {
-    height: 20vh;
-    margin: 1em 4em 1em 4em;
-    background-color: #ffffff;
-    border: #000000;
-    border-width: 2px;
-    border-style: solid;
-    text-align: center;
+    height: 25vh;
 }
 
 .footer {
