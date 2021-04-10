@@ -22,12 +22,16 @@
   height: 10vh;
   background-color: #ffffff;
 }
+.medidas {
+  height: 75vh;
+}
+p.centrado {
+
+    text-align: center;
+  }
 
 .footer {
   height: 20vh;
   background-color: #000000;
 }
 
-p.centrado {
-    text-align: center;
-  }
