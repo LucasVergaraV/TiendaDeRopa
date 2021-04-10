@@ -25,9 +25,18 @@
 .medidas {
   height: 75vh;
 }
-p.centrado {
+.titulo {
+  background-color: #ffffff;
+  margin-left: 5em;
+  margin-right: 5em;
+  height: 15vh;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
 
-    text-align: center;
+p.imagen {
+  vertical-align: text-top; 
+  text-align: center;
   }
 
 .footer {
