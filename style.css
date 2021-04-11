@@ -79,6 +79,14 @@
     margin: 2em 4.8em 2em 4.8em;
 }
 
+.secundario img {
+    background-color: #ffffff;
+    border: #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100px;
+}
+
 .hombre {
     height: 25vh;
 }
