@@ -1,0 +1,45 @@
+.cuerpo {
+  margin-top: 0.5em;
+}
+
+.principal {
+  height: 100vh;
+}
+
+.header {
+  height: 74%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.separador {
+  height: 10vh;
+  background-color: #000;
+  margin-top: 3em;
+}
+
+.nav {
+  height: 10vh;
+  background-color: #ffffff;
+}
+.medidas {
+  height: 75vh;
+}
+.titulo {
+  background-color: #ffffff;
+  margin-left: 5em;
+  margin-right: 5em;
+  height: 15vh;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+p.imagen { 
+  text-align: center;
+  }
+
+.footer {
+  height: 20vh;
+  background-color: #000000;
+}
+
