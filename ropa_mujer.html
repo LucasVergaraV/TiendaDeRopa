@@ -14,6 +14,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <title>Articulos</title>
 </head>
 
@@ -76,16 +79,22 @@
                 </div>
             </div>
             <!-- Filtro -->
-            <div class="aling-items-center filtro">
-                <form>
-                    <select class="ordenarRopa rounded" id="country" name="country">
-                        <option value="destacados">Destacados</option>
-                        <option value="min_max">De menor a mayor</option>
-                        <option value="max_min">De mayor a menor</option>
-                    </select>
-                </form>
+            <div class="container aling-items-center filtro">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 ">
+                        <form>
+                            <select class="ordenarRopa rounded" id="country" name="country">
+                                <option value="destacados">Destacados</option>
+                                <option value="min_max">De menor a mayor</option>
+                                <option value="max_min">De mayor a menor</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-8 ">
+                        <h3 class="tituloGaleria"> ♥ ♣ Ropa para mujeres ♠ ♦ </h3>
+                    </div>
+                </div>
             </div>
-
             <!-- Galeria -->
             <div class="container-fluid galeria">
                 <div class="row text-center">
