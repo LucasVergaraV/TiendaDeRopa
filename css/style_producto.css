@@ -38,8 +38,25 @@ p.imagen {
   text-align: center;
   }
 
-.footer {
-  height: 20vh;
-  background-color: #000000;
+
+  /* pie de pagina */
+
+.pie {
+  height: 30vh;
+  width: auto;
+  background-color: #000;
+  margin-top: 5em;
 }
 
+.contactos {
+  text-align: right;
+}
+
+.botonContacto {
+  height: 0px;
+  width: 50px;
+  margin-top: 2em;
+  border: 0px;
+  background-color: #000000;
+  color: #ffffff;
+}
