@@ -1,62 +1,85 @@
+.translated-ltr {
+    margin-top: -40px;
+}
+
+.translated-ltr {
+    margin-top: -40px;
+}
+
+.goog-te-banner-frame {
+    display: none;
+    margin-top: -20px;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
 .cuerpo {
-  margin-top: 0.5em;
+    margin-top: 0.5em;
 }
 
 .principal {
-  height: 100vh;
+    height: 100vh;
 }
 
 .header {
-  height: 74%;
-  background-color: #ffffff;
-  text-align: center;
+    height: 74%;
+    background-color: #ffffff;
+    text-align: center;
 }
 
 .separador {
-  height: 10vh;
-  background-color: #000;
-  margin-top: 3em;
+    height: 10vh;
+    background-color: #000;
+    margin-top: 3em;
 }
 
 .nav {
-  height: 10vh;
-  background-color: #ffffff;
+    height: 10vh;
+    background-color: #ffffff;
 }
+
 .medidas {
-  height: 75vh;
+    height: 75vh;
 }
+
 .titulo {
-  background-color: #ffffff;
-  margin-left: 5em;
-  margin-right: 5em;
-  height: 15vh;
-  text-align: center;
-  font-family: 'Lobster', cursive;
+    background-color: #ffffff;
+    margin-left: 5em;
+    margin-right: 5em;
+    height: 15vh;
+    text-align: center;
+    font-family: 'Lobster', cursive;
 }
 
-p.imagen { 
-  text-align: center;
-  }
+p.imagen {
+    text-align: center;
+}
 
 
-  /* pie de pagina */
+/* pie de pagina */
 
 .pie {
-  height: 30vh;
-  width: auto;
-  background-color: #000;
-  margin-top: 5em;
+    height: 30vh;
+    width: auto;
+    background-color: #000;
+    margin-top: 5em;
 }
 
 .contactos {
-  text-align: right;
+    text-align: right;
 }
 
 .botonContacto {
-  height: 0px;
-  width: 50px;
-  margin-top: 2em;
-  border: 0px;
-  background-color: #000000;
-  color: #ffffff;
+    height: 0px;
+    width: 50px;
+    margin-top: 2em;
+    border: 0px;
+    background-color: #000000;
+    color: #ffffff;
 }
