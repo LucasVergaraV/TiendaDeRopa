@@ -109,16 +109,15 @@ body {
 }
 
 .btn-group {
-    background-color: #ffffff;
-    color: #bbbbbb;
+    background-color: #bebebe;
+    color: #ffffff;
 }
 
 .botonMenuRopa {
     width: 15em;
-    background-color: #ffffff;
-    /* Green */
+    background-color: #cacaca;
     border: 1px solid #000000;
-    color: #ffffff;
+    color: #bebebe;
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
@@ -126,6 +125,7 @@ body {
     display: inline-block;
     font-size: 1em;
     cursor: pointer;
+    font-family: 'Dancing Script', cursive;
 }
 
 .botonMenuRopa:not(:last-child) {
@@ -138,7 +138,7 @@ body {
 }
 
 .botonMenuRopa:hover {
-    background-color: #ff56e8;
+    background-color: #84afd3;
     text-decoration: none;
 }
 
@@ -150,19 +150,29 @@ body {
     margin-top: 2em;
     margin-left: 5em;
     margin-right: 5em;
-    border: 0.15em;
-    border-style: solid;
+    /* border: 0.15em;
+    border-style: solid; */
 }
 
 .ordenarRopa {
-    width: 25%;
+    width: 60%;
     padding: 16px 20px;
-    margin-left: 1em;
+    margin-left: 3em;
     margin-top: 1em;
     margin-bottom: 1em;
     border-style: solid;
     border: 1em;
-    background-color: #dddddd;
+    background-color: #a7cbfa;
+}
+
+.tituloGaleria {
+    width: 60%;
+    margin-top: 1em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
 }
 
 

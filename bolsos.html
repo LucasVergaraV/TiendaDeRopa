@@ -14,6 +14,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <title>Articulos</title>
 </head>
 
@@ -28,35 +31,48 @@
             <p></p>
         </section>
         <!-- Navegador -->
-        <!-- Navegador -->
-        <section class="row nadvar">
-            <div class="col-sm-6 col-md-6 botonIzquierdo">
-                <button class="boton">
-                        <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                        </svg></a>
-                    </button>
-                <button class="boton">
-                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-person" viewBox="0 0 16 16">
-                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-                        </svg></a>
-                    </button>
-                <li class="nav-item">
-                    <div id="google_translate_element"></div>
-                </li>
-            </div>
-            <div class="col-sm-6 col-md-6 botonDerecho">
-                <button class="boton">
-                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                        </svg></a>
-                    </button>
-                <button class="boton">
-                        <a href="tienda.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-cart" viewBox="0 0 16 16">
-                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                        </svg></a>
-                    </button>
-            </div>
+        <section class="nav">
+            <section class="row nadvar">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="img/casa.png" alt="" width="30" height="24">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="tienda.html">
+                                        <img src="img/carro.png" alt="" width="30" height="24">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="img/persona.png" alt="" width="30" height="24">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="img/corazon.png" alt="" width="30" height="24">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="contacto.html">
+                                        <img src="img/contacto.png" alt="" width="30" height="24">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <div id="google_translate_element"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </section>
         </section>
         <!-- Cuerpo -->
         <section class="container-fluid cuerpo">
@@ -64,31 +80,37 @@
                 <div class="row ">
                     <div class="row btn-group text-center" role="group">
                         <div class="col-sm-6 col-md-3 ">
-                            <a href="ropa_hombre.html"><button type="button" class="botonMenuRopa btn btn-dark">Ropa Hombre</button></a>
+                            <a href="ropa_hombre.html"><button type="button" class="botonMenuRopa btn">Ropa Hombre</button></a>
                         </div>
                         <div class="col-sm-6 col-md-3 ">
-                            <a href="ropa_mujer.html"><button type="button" class="botonMenuRopa btn btn-dark">Ropa Mujer</button></a>
+                            <a href="ropa_mujer.html"><button type="button" class="botonMenuRopa btn">Ropa Mujer</button></a>
                         </div>
                         <div class="col-sm-6 col-md-3 ">
-                            <a href="accesorios.html"><button type="button" class="botonMenuRopa btn btn-dark">Accesorios</button></a>
+                            <a href="accesorios.html"><button type="button" class="botonMenuRopa btn">Accesorios</button></a>
                         </div>
                         <div class="col-sm-6 col-md-3 ">
-                            <a href="bolsos.html"><button type="button" class="botonMenuRopa btn btn-dark">Bolsos</button></a>
+                            <a href="bolsos.html"><button type="button" class="botonMenuRopa btn">Bolsos</button></a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Filtro -->
-            <div class="aling-items-center filtro">
-                <form>
-                    <select class="ordenarRopa rounded" id="country" name="country">
-                        <option value="destacados">Destacados</option>
-                        <option value="min_max">De menor a mayor</option>
-                        <option value="max_min">De mayor a menor</option>
-                    </select>
-                </form>
+            <div class="container aling-items-center filtro">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 ">
+                        <form>
+                            <select class="ordenarRopa rounded" id="country" name="country">
+                                <option value="destacados">Destacados</option>
+                                <option value="min_max">De menor a mayor</option>
+                                <option value="max_min">De mayor a menor</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="col-sm-12 col-md-8 ">
+                        <h3 class="tituloGaleria"> ♥ ♣ Elige tu bolso ♠ ♦ </h3>
+                    </div>
+                </div>
             </div>
-
             <!-- Galeria -->
             <div class="container-fluid galeria">
                 <div class="row text-center">
